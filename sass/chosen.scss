@@ -21,9 +21,11 @@ $chosen-sprite-retina: url('chosen-sprite@2x.png') !default;
     background: #fff;
     box-shadow: 0 4px 5px rgba(#000,.15);
     display: none;
+    -ms-overflow-style: none;
   }
   &.chosen-with-drop .chosen-drop {
     display: block;
+    -ms-overflow-style: auto;
   }
   a{
     cursor: pointer;
